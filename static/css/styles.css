@@ -131,7 +131,7 @@ body {
     padding: 2rem 1.5rem;
 }
 
-#main-container.frontpage #vocabulary-list, #main-container.frontpage #info-box {
+#main-container.frontpage #vocabulary-list, #vocabulary-list .list-group-item, #main-container.frontpage #info-box {
     background-color: var(--medium-color);
 }
 
