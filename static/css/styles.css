@@ -19,12 +19,23 @@ body {
     color: var(--dark-color);
 }
 
+.fs-1 {
+  font-size: 3.75em !important;
+}
+
+.fs-2 {
+  font-size: 3.25em !important;
+}
+
+.fs-3 {
+  font-size: 2.5em !important;
+}
+
 /* Topbar
  *****************************************/
 #topbar {
     background-color: var(--dark-color);
     color: var(--white-color);
-    height: 50px;
 }
 
 #topbar h3 {
@@ -59,9 +70,6 @@ body {
 
 /* Headerbar
  *****************************************/
-#headerbar  {
-    padding: 2rem 1rem;
-}
 
 #headerbar h1 {
     font-weight: bold;
@@ -419,4 +427,10 @@ body {
 
 #footer p {
     max-width: 75%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px !important;
+  }
 }
