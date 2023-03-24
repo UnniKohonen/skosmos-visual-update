@@ -40,13 +40,7 @@ body {
 
 #topbar h3 {
     display: inline;
-    margin: 0;
     font-weight: bold;
-}
-
-#topbar-nav {
-    margin-left: auto; /* Keep links to the right */
-    padding: 0;
 }
 
 .topbar-nav-link {
@@ -73,7 +67,6 @@ body {
 
 #headerbar h1 {
     font-weight: bold;
-    margin: 0;
 }
 
 #vocab-title a {
@@ -83,12 +76,7 @@ body {
 }
 
 #search-vocab {
-    margin-left: auto; /* Keep to the right */
     width: 600px;
-}
-
-#search-vocab .input-group {
-    margin-bottom: 0.5rem;
 }
 
 #search-vocab .dropdown-toggle {
@@ -118,7 +106,6 @@ body {
  *****************************************/
 #main-container {
     font-size: 16px;
-    padding-bottom: 5rem;
 }
 
 #main-container h1, #main-container h2 {
@@ -155,8 +142,6 @@ body {
 
 .vocab-category {
     border-top: 1px solid var(--dark-color);
-    padding-bottom: 1.5rem;
-    padding-top: 0.5rem;
 }
 
 .vocab-category a {
@@ -172,10 +157,6 @@ body {
 
 #main-container.frontpage-one-vocab #welcome-box, #main-container.frontpage-one-vocab #info-box {
     background-color: var(--medium-color);
-}
-
-#main-container.frontpage-one-vocab .top {
-    margin-bottom: 1.5rem;
 }
 
 #main-container.frontpage-one-vocab #vocabulary-list {
@@ -265,7 +246,6 @@ body {
 #alpha-list li {
     border: none;
     border-radius: none;
-    padding: 0.25rem 0.5rem;
 }
 
 #alpha-list a {
@@ -285,10 +265,6 @@ body {
 }
 
 /***  Main content ***/
-#main-content {
-    padding-top: 1rem;
-}
-
 .main-content-section {
     border-bottom: 2px solid var(--medium-color);
     padding: 2rem 2rem;
@@ -332,15 +308,7 @@ body {
     width: 40%;
 }
 
-.resource-table-label.indented {
-    padding-left: 2rem;
-}
-
 /***** Main container termpage *****/
-#main-container.termpage h1 {
-    margin-bottom: 0;
-}
-
 #term-heading span {
     width: 30%;
     align-self: end;
@@ -361,7 +329,6 @@ body {
 }
 
 /***** Main container infopage *****/
-
 #main-container.infopage, #main-container.feedbackpage {
     background-color: var(--light-color);
     padding: 4rem 0;
@@ -377,19 +344,10 @@ body {
     font-weight: bold;
 }
 
-#main-container.infopage h2 {
-    margin-bottom: 2rem;
-}
-
 /***** Main container feedbackpage *****/
-#main-container.feedbackpage h2 {
-    margin-bottom: 1rem;
-}
-
 #feedback-form {
     background-color: var(--white-color);
     padding: 2rem 1rem 4.5rem;
-    margin-top: 1.5rem;
 }
 
 #feedback-form label {
@@ -400,7 +358,6 @@ body {
     background-color: var(--light-color);
     border: none;
     border-radius: 0;
-    margin-bottom: 1.5rem;
 }
 
 #feedback-form input::placeholder {
@@ -421,10 +378,6 @@ body {
 
 /* Footer
  *****************************************/
-#footer {
-    padding-top: 2rem;
-}
-
 #footer p {
     max-width: 75%;
 }
