@@ -267,7 +267,6 @@ body {
 /***  Main content ***/
 .main-content-section {
     border-bottom: 2px solid var(--medium-color);
-    padding: 2rem 2rem;
 }
 
 #main-table {
